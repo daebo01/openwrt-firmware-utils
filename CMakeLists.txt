@@ -28,6 +28,7 @@ ENDMACRO(FW_UTIL)
 
 FW_UTIL(add_header "" "" "")
 FW_UTIL(addpattern "" "" "")
+FW_UTIL(asus_qca_fix_checksum "" "" "${ZLIB_LIBRARIES}")
 FW_UTIL(asustrx "" "" "")
 FW_UTIL(bcm4908asus "" "" "")
 FW_UTIL(bcm4908kernel "" "" "")
